@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://th.bing.com/th/id/OIP.O7hEkqDJvxmW3jSitJtYPAHaEu?w=279&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Scale the image to cover the entire element */
+  background-position: center;
+    background-color: rgb(19, 132, 6);
+  }
+  #clock {
+    font-family: "DS-Digital",sans-serif;
+    font-size: 5rem;
+    margin-top: 20px;
+  }
+  #alarms {
+    
+    margin-top: 20px;
+    text-align: left;
+    font-weight: lighter;
+  }
+  #alarmsList{
+    font-family: "DS-Digital",sans-serif;
+    font-size: 2rem;
+    list-style: none;
+  }
+  #alarmForm{
+    font-weight: bolder;
+  }
+  input{
+    border-radius: 20%;
+    width: 30px;
+  }
+  button{
+    background-color: red;
+    border-style: hidden;
+    align-items: center;
+    padding: 10px 10px 3px 10px; 
+    width: auto;
+    display: inline-block;
+  }
+  #setAlarmButton{
+    background-color: rgb(28, 238, 28);
+    border-style: hidden;
+    padding: 5px 10px;
+    border-radius: 30%;
+  }
+  
+  
